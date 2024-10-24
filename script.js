@@ -1,7 +1,10 @@
 console.log('Hello world!'); // '' = ""
 
-//Variables. Use english names because of æøå problems
-//camelcase recomended
+/*Variables.
+    recommendations
+        Use english names because of æøå problems
+        camelCase recomended
+*/
 
 let age = 28; //kan endre seg
 const firstName = "Julie"; //konstant
@@ -21,5 +24,9 @@ console.log(typeof(firstName));
 
 const surName = "Hauge";
 const fullname = firstName + " " + surName;  //parent
-//string methods seinere
 console.log(fullname);
+//string methods seinere
+
+//edit html with js
+const htmlElement = document.querySelector("#javaScriptData")
+htmlElement.textContent = fullname;
